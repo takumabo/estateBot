@@ -1,0 +1,79 @@
+{
+    "init": {
+        "answers": [
+            {"content": "物件を購入したい", "nextId": "job_offer"},
+            {"content": "コンサルティングを依頼したい", "nextId": "consultant"},
+            {"content": "ダナンコミュニティについて知りたい", "nextId": "community"},
+            {"content": "直接連絡したい", "nextId": "dating"}
+        ],
+        "question": "ダナン不動産へようこそ！ご用件はなんでしょうか？'"
+    },
+    "job_offer": {
+        "answers": [
+            {"content": "一軒家(ヴィラ)を購入したい", "nextId": "website"},
+            {"content": "賃貸物件を検討している", "nextId": "webapp"},
+            {"content": "コンドテルを購入したい", "nextId": "automation_tool"},
+            {"content": "その他", "nextId": "other_jobs"}
+        ],
+        "question": "どのような物件をお探しでしょうか？"
+    },
+    "website": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "一軒家(ヴィラ)購入についてですね。コチラからお問い合わせできます。"
+    },
+    "webapp": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "賃貸物件についてですね。コチラからお問い合わせできます。"
+    },
+    "automation_tool": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "コンドテルについてですね。コチラからお問い合わせできます。"
+    },
+    "other_jobs": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "その他についてですね。コチラからお問い合わせできます。"
+    },
+    "consultant": {
+        "answers": [
+            {"content": "YouTubeで動画を見る", "nextId": "https://www.youtube.com/channel/UCOsir1cv3yWGFzCEnjQ4APA"},
+            {"content": "学習コミュニティについて知りたい", "nextId": "community"},
+            {"content": "facebookでDMする", "nextId": "https://www.facebook.com/realestate.danang/"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ダナン不動産ではYouTubeでダナンの海外進出や物件情報を発信しています。また、facebook上で直接DM相談できますよ。"
+    },
+    "community": {
+        "answers": [
+            {"content": "どんな活動をしているの？", "nextId": "community_activity"},
+            {"content": "コミュニティをみてみたい", "nextId": "https://poste-vn.com/jccid-danang.html"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "2010年以降急速な成長を遂げるダナンのコミュニティをご紹介できます！"
+    },
+    "community_activity": {
+        "answers": [
+            {"content": "さらに詳細を知りたい", "nextId": "https://www.youtube.com/watch?v=33B7UxL8juQ"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "飲食業や製造業、日本以外の海外顧客とのコンサル業も充実しています！下記より詳細が確認できますよ。"
+    },
+    "dating": {
+        "answers": [
+            {"content": "DMする", "nextId": "https://www.facebook.com/realestate.danang/"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "ありがとうございます。下記よりご連絡いただけます。"
+    }
+}
